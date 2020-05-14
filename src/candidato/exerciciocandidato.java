@@ -72,7 +72,27 @@ public class exerciciocandidato {
 		System.out.println("Pontos por experiência: "+ pontoex);
 		System.out.println("");
 
+		if (pontoes>=20 && habilitacao=='s' ) {
+			
+			System.out.println("Você está habilitado para o(s) seguinte(s) cargo(s):");
+			System.out.println("ASSISTENTE");
+		}
 		
+		else if (pontoex<=5 && pontoes>=30) {
+			System.out.println("Você está habilitado para o(s) seguinte(s) cargo(s):");
+			System.out.println("GERENTE");
+			
+		}
+		else if (pontoex > 5 && viagem == 's' && pontoes >=30) {
+			
+			System.out.println("Você está habilitado para o(s) seguinte(s) cargo(s):");
+			System.out.println("ANALISTA");
+			System.out.println("GERENTE");
+			
+		}
+		else {
+			System.out.println("Infelizmente seu perfil não atende a empresa");
+		}
 		
 	}
 	
