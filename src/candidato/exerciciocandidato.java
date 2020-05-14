@@ -67,6 +67,11 @@ public class exerciciocandidato {
 			pontoex=40;
 			
 		}
+		System.out.println("");	
+		System.out.println("Pontos por escolaridade: " + pontoes);
+		System.out.println("Pontos por experiência: "+ pontoex);
+		System.out.println("");
+
 		
 		
 	}
